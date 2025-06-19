@@ -33,6 +33,11 @@ After detecting and cropping the license plate regions, the system uses **EasyOC
 - Outputs the extracted text overlaid on the image or video frame
 
 ---
+## Sample Outputs
+
+![output1](https://github.com/user-attachments/assets/034468d8-5cfb-40ea-9407-fc50481c1b28)
+
+---
 
 ## 📁 Project Structure
 
