@@ -39,6 +39,6 @@ After detecting and cropping the license plate regions, the system uses **EasyOC
 ```bash
 .
 ├── License_Plate_Detector_and_Reader.ipynb   # Main Jupyter Notebook
-├── best.pt                                   # YOLOv5 trained weights (linked via Google Drive)
+├── best.pt                                   # YOLOv5 trained weights 
 ├── requirements.txt                          # Python dependencies
 └── README.md                                 # Project documentation
