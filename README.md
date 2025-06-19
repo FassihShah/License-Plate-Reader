@@ -1,2 +1,44 @@
-# License-Plate-Reader
-Real-time number plate detection and recognition using YOLOv5 and EasyOCR, built for vehicle monitoring applications.
+# License Plate Detector and Reader using YOLOv5 + EasyOCR
+
+This project detects and reads vehicle license plates from images and videos using a combination of **YOLOv5** (for object detection) and **EasyOCR** (for Optical Character Recognition). It can be used for surveillance, traffic monitoring, smart parking, or toll systems.
+
+---
+
+## Features
+
+- Fast and accurate license plate detection using YOLOv5
+- Text extraction from plates using EasyOCR
+- Works on both images and videos
+- Trained on a real-world annotated dataset from Roboflow Universe
+- Saves processed outputs with bounding boxes and recognized text
+
+---
+
+## How It Works
+
+### 1. License Plate Detection (YOLOv5)
+
+The project uses **YOLOv5**, a real-time object detection model, trained specifically to detect license plates in images and video frames.
+
+- **Dataset**: [License Plate Recognition – Roboflow Universe](https://universe.roboflow.com/yolov5-sg5le/license_plate_recognition-qslmk/dataset/6)
+- **Model**: YOLOv5 custom-trained model (`best.pt`)
+- **Output**: Bounding boxes with confidence scores for detected plates
+
+### 2. Text Recognition (EasyOCR)
+
+After detecting and cropping the license plate regions, the system uses **EasyOCR** to read the characters on the plate.
+
+- Works well with alphanumeric characters
+- Handles various plate fonts and lighting conditions
+- Outputs the extracted text overlaid on the image or video frame
+
+---
+
+## 📁 Project Structure
+
+```bash
+.
+├── License_Plate_Detector_and_Reader.ipynb   # Main Jupyter Notebook
+├── best.pt                                   # YOLOv5 trained weights (linked via Google Drive)
+├── requirements.txt                          # Python dependencies
+└── README.md                                 # Project documentation
