@@ -35,7 +35,9 @@ After detecting and cropping the license plate regions, the system uses **EasyOC
 ---
 ## Sample Outputs
 
-![output1](https://github.com/user-attachments/assets/034468d8-5cfb-40ea-9407-fc50481c1b28)
+![output1](https://github.com/user-attachments/assets/034468d8-5cfb-40ea-9407-fc50481c1b28)    ![output2](https://github.com/user-attachments/assets/4b1e5440-ecb0-4237-84d5-c0fd2c3de8bd)   ![output3](https://github.com/user-attachments/assets/d0847023-9b5f-4a0d-b644-879465bbb6c9)
+
+
 
 ---
 
